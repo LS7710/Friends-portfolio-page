@@ -44,17 +44,28 @@
                         <a href="#" class="btn active">Download CV</a>
                         <a href="#" class="btn">Contact</a>
                     </div>
-                    
+
                     <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook" alt="Facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin" alt="LinkedIn"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" alt="Instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble" alt="Dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest" alt="Pinterest"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var navlinks=document.querySelector(".navlinks");
+        var links=document.querySelectorAll(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            navlinks.classList.toggle("open");
+
+        })
+    </script>
 </body>
 </html>
