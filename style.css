@@ -113,21 +113,18 @@ nav .navlinks li a{
 .hero-pic img:hover{
     transform: scale(1.2);
 }
-.hero.text{
+.hero-text{
     max-width: 500px;
     display: flex;
     flex-direction: column;
-
 }
-.hero.text h5{
+.hero-text h5{
     color: #e5e5e5;
     font-size: 14px;
-     
 }
-.hero.text h5 span{
+.hero-text h5 span{
     color: #007ced;
-    font-size: 16px;
-     
+    font-size: 16px;  
 }
 .hero-text h1{
     color: #007ced;
@@ -144,9 +141,15 @@ nav .navlinks li a{
     color: #fff;
     background-color: #333;
     padding: 12px 25px;
+    margin-right: 7px;
     margin: 5px 0;
     border-radius: 30px;
     border: 2px solid #e5e5e5;
-
-
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
+.btn.active{
+    border-color: #007ced;
+}
+
+/* Responsive doohickies and small screen support
+ */
